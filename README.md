@@ -4,10 +4,13 @@ I'm createt it for help you create SAP UI routing
 We will use roting between view1.xml and view2.xml.
 
 Step 1 – use tag APP
+
 Create a tag <App> in view1.xml. It will be container for yourcontent.
   <App id="app" width="100%">
 </App>
+
 Step 2 – change view1.controller
+
 		to_view2: function(oEvent) {
 			//	this.getRouter().navTo("page2");
 
@@ -17,6 +20,7 @@ Step 2 – change view1.controller
 			});
 		},
 Step 3 – change your manifest
+
 	"routing": {
 			"targets": {
 				"to_view2": {
