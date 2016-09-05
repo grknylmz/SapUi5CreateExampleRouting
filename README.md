@@ -4,10 +4,10 @@ I'm createt it for help you create SAP UI routing
 We will use roting between view1.xml and view2.xml.
 
 Step 1 – use tag APP
+Create a tag <App> in view1.xml. It will be container for your content.
 
-Create a tag <App> in view1.xml. It will be container for yourcontent.
-  <App id="app" width="100%">
-</App>
+App id="app" width="100%"
+
 
 Step 2 – change view1.controller
 
